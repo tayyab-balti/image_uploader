@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+*/migrations/
+!*/migrations/__init__.py
+
+# Django static/media files
+staticfiles/
+media/
+
+# VSCode / IDE settings
+.vscode/
+.idea/
+
+# Python environment
+env/
+venv/
+ENV/
+*.env
+
+# OS / Misc
+.DS_Store
+Thumbs.db
+
+# SQLite database
+*.sqlite3
+
+# Logs
+*.log
+
+# Build
+build/
+*.egg-info/
+dist/
+
+# Render/Heroku specific
+build.sh
+Procfile
+render.yaml
