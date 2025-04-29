@@ -23,5 +23,25 @@ A beginner-friendly Django web app for uploading, managing, and displaying image
 
 ---
 
-## 📂 Project Structure
+
+---
+
+## 🚀 Getting Started (Local Setup)
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/tayyab-balti/image_uploader.git
+cd image_uploader
+
+# 2. Create virtual environment and activate
+python -m venv venv
+venv\Scripts\activate      # On Windows
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run migrations and start server
+python manage.py migrate
+python manage.py runserver
+
 
